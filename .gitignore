@@ -1,0 +1,14 @@
+# data from the Zenodo record and everything the pipeline writes
+data/
+runs/
+outputs/
+*.mp4
+*.MP4
+*.pt
+*.npy
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+.pytest_cache/

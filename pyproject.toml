@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cabbagetrack"
+version = "1.0.0"
+description = "Re-identification of individual plants across passes of a nadir drone video, without GNSS"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "AGPL-3.0-only"}
+dependencies = ["ultralytics", "opencv-python", "numpy", "pandas", "scipy", "imageio-ffmpeg", "PyYAML", "lap"]
+
+[project.scripts]
+cabbagetrack = "cabbagetrack.cli:main"
+
+[tool.setuptools]
+packages = ["cabbagetrack"]

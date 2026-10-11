@@ -1,0 +1,14 @@
+# Versions used for the paper (Windows 11, Python 3.12.10, NVIDIA RTX 4060).
+# Install PyTorch first, matching your GPU / CUDA (see docs/01_setup_windows.md); we used torch 2.14.1+cu126.
+ultralytics==8.4.14
+opencv-python==5.0.0.93
+numpy==2.3.5
+pandas==3.0.6
+scipy==1.18.1
+matplotlib==3.11.2
+pycocotools==2.0.11
+PyYAML==6.0.3
+imageio-ffmpeg==0.6.0
+lap==0.5.13
+tqdm==4.70.1
+pytest  # tests only

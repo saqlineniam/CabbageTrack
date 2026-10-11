@@ -1,0 +1,46 @@
+# The four flights of the paper. Paths are relative to the repository root; data/ is the Zenodo record (docs/02_data.md).
+# DJI drone, nadir camera; 1920 x 1080 copies of the recorded videos. GNSS (.SRT) is for evaluation only.
+
+fieldA:
+  name: Field A
+  role: development
+  date: 2025-12-26
+  description: full loop over the cabbage field, starting at row B
+  video: data/videos/fieldA.mp4
+  video_sha1: 6971fa9b0d659e122667533d0ddad927263eafaa
+  weights: data/weights/cabbage.pt
+  segments: ''
+  srt: data/gnss/fieldA.SRT
+
+fieldB:
+  name: Field B
+  role: development
+  date: 2025-12-14
+  description: same field at an earlier growth stage (young plants); loop with a sharp turn; two clips joined at a hover
+  video: data/videos/fieldB.mp4
+  video_sha1: 9554742f8aed77466de2277632bf80c9a617136d
+  weights: data/weights/young_cabbage.pt
+  segments: 0-4696,4697-8174          # clip 1 | clip 2: the tracker restarts at the join, the camera path continues
+  srt: data/gnss/fieldB.SRT           # the two clips' logs joined (clip 2 frame numbers + 4697)
+
+fieldC:
+  name: Field C
+  role: development (supplementary field check)
+  date: 2025-12-14
+  description: cauliflower field; two partly overlapping passes (~25 % of the image shared)
+  video: data/videos/fieldC.mp4
+  video_sha1: 67ad23b5953560704dd47da021417a61a6b5631e
+  weights: data/weights/cauliflower.pt
+  segments: ''
+  srt: data/gnss/fieldC.SRT
+
+heldout:
+  name: Held-out flight
+  role: held-out test (frozen model, run once)
+  date: 2025-12-26
+  description: dense cabbage field, diagonal U-shaped flight with partly overlapping passes
+  video: data/videos/heldout.mp4
+  video_sha1: 2cc84727c1687a889d9dbbf638d3bf6032a051f3
+  weights: data/weights/cabbage.pt
+  segments: ''
+  srt: data/gnss/heldout.SRT
