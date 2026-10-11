@@ -4,13 +4,13 @@ title: "CabbageTrack"
 version: 1.0.0
 license: AGPL-3.0-only
 type: software
-# TODO (authors): full author list in paper order, repository URL, Zenodo DOI
+# TODO (authors): full author list in paper order, Zenodo DOI
 authors:
   - given-names: "Saklain"
   - given-names: "Mashrup"
   - given-names: "Md. Mahin"
     family-names: "Uddin"
-repository-code: "https://github.com/<user>/cabbagetrack"   # TODO
+repository-code: "https://github.com/saqlineniam/CabbageTrack"
 preferred-citation:
   type: article
   title: "GPS-Free Cabbage Plant Re-Identification Across Repeated UAV Passes Using Phase Correlation Visual Odometry and Cross-Pass Image Registration"

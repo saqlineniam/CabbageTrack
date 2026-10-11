@@ -65,8 +65,8 @@ Details: [docs/03_tracking.md](docs/03_tracking.md).
 ## Quick start (Windows, Python 3.12, NVIDIA GPU)
 
 ```bat
-git clone <this repository> cabbagetrack
-cd cabbagetrack
+git clone https://github.com/saqlineniam/CabbageTrack.git
+cd CabbageTrack
 py -3.12 -m venv .venv
 .venv\Scripts\activate
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cu126

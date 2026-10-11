@@ -15,8 +15,8 @@ Linux and macOS work the same way (use `source .venv/bin/activate` and `/` in pa
 Open *Command Prompt* in the folder where the project should live:
 
 ```bat
-git clone <repository URL> cabbagetrack
-cd cabbagetrack
+git clone https://github.com/saqlineniam/CabbageTrack.git
+cd CabbageTrack
 py -3.12 -m venv .venv
 .venv\Scripts\activate
 python -m pip install --upgrade pip
@@ -53,7 +53,7 @@ flight and need the data record (next step); without it they are skipped.
 ## 1.4 Every new terminal
 
 ```bat
-cd cabbagetrack
+cd CabbageTrack
 .venv\Scripts\activate
 ```
 
