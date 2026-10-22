@@ -13,7 +13,7 @@ authors:
 repository-code: "https://github.com/saqlineniam/CabbageTrack"
 preferred-citation:
   type: article
-  title: "GPS-Free Cabbage Plant Re-Identification Across Repeated UAV Passes Using Phase Correlation Visual Odometry and Cross-Pass Image Registration"
+  title: "Vision-only re-identification of individual plants across repeated UAV passes by cross-pass image registration"
   journal: "Computers and Electronics in Agriculture"
   status: in-preparation
   authors:
