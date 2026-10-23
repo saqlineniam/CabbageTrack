@@ -17,7 +17,7 @@ authors:
 repository-code: "https://github.com/saqlineniam/CabbageTrack"
 preferred-citation:
   type: article
-  title: "Vision-only re-identification of individual plants across repeated UAV passes by cross-pass image registration"
+  title: "Vision-only re-identification of individual plants across repeated UAV passes"
   journal: "Computers and Electronics in Agriculture"
   status: in-preparation
   authors:
