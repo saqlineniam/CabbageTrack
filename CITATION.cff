@@ -4,7 +4,11 @@ title: "CabbageTrack"
 version: 1.0.0
 license: AGPL-3.0-only
 type: software
-# TODO (authors): full author list in paper order, Zenodo DOI
+# TODO (authors): full author list in paper order
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23582580"
+    description: "Data record (videos, GNSS logs, detector data and weights, ground truth, runs)"
 authors:
   - given-names: "Saklain"
   - given-names: "Mashrup"

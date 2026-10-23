@@ -28,7 +28,7 @@ All four videos: [YouTube playlist](https://www.youtube.com/playlist?list=PLcuS8
 | [![Field A](https://img.youtube.com/vi/s5Dj28gXbIk/mqdefault.jpg)](https://youtu.be/s5Dj28gXbIk) | [![Field B](https://img.youtube.com/vi/n2eswgAq9nE/mqdefault.jpg)](https://youtu.be/n2eswgAq9nE) | [![Field C](https://img.youtube.com/vi/S8zuePsv57Y/mqdefault.jpg)](https://youtu.be/S8zuePsv57Y) |
 
 The same videos are rendered by `cabbagetrack demo` (or `python tools\run_flights.py <flight> --demo`) from the
-published runs; archived copies: *Zenodo DOI*.
+published runs; archived copies: [10.5281/zenodo.23582580](https://doi.org/10.5281/zenodo.23582580).
 
 ## Results
 
@@ -89,7 +89,7 @@ Full setup, including CPU-only use: [docs/01_setup_windows.md](docs/01_setup_win
 ## Reproduce the paper
 
 The data record (videos, GNSS logs, annotated detector images, detector weights, human ground truth, published
-runs) is on Zenodo: *DOI*. Unpack it into `data/` ([docs/02_data.md](docs/02_data.md)), then:
+runs) is on Zenodo: [10.5281/zenodo.23582580](https://doi.org/10.5281/zenodo.23582580). Join the split archives and unpack them into `data/` ([docs/02_data.md](docs/02_data.md)), then:
 
 ```bat
 python tools\run_flights.py                  :: all four flights, checked against the published runs

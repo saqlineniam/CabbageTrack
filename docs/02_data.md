@@ -1,6 +1,8 @@
 # 2. Data
 
-Everything that is not code is in the Zenodo record *DOI* (CC BY 4.0). Download it and unpack it into `data/` in the
+Everything that is not code is in the Zenodo record [10.5281/zenodo.23582580](https://doi.org/10.5281/zenodo.23582580) (CC BY 4.0). Download every file, join the
+parts of each split archive (`copy /b a.zip.001+a.zip.002 a.zip` on Windows, `cat a.zip.0* > a.zip` elsewhere; check
+with `MD5SUMS.txt`) and unpack them into `data/` in the
 repository root, so that `data/videos/heldout.mp4` exists. `data/` is ignored by git.
 
 ## 2.1 Layout
