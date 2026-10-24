@@ -8,6 +8,8 @@ can be joined. It uses only the video: detection and tracking within a pass, cam
 image-based "have I been here before?" check that links a later pass to an earlier one.
 
 > Paper: *citation once published* (Computers and Electronics in Agriculture, under revision)
+>
+> Download Dataset: https://doi.org/10.5281/zenodo.23582580
 
 ## Demo videos
 
